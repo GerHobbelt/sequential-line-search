@@ -132,7 +132,7 @@ double AskHumanForSliderManipulation(const std::pair<VectorXd, VectorXd>& slider
     return slider_position;
 }
 
-int main()
+int main(void)
 {
     // Instantiate an optimizer
     constexpr int dim = 6;
